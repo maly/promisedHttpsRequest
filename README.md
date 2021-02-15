@@ -1,2 +1,3 @@
 # promisedHttpsRequest
-HTTPS Request w Promises
+
+HTTPS Request with Promises
