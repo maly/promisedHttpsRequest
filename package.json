@@ -1,6 +1,6 @@
 {
   "name": "@gazetisto/promised-https-request",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTTPS request with promises",
   "main": "index.js",
   "scripts": {
