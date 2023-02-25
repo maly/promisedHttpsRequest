@@ -1,6 +1,6 @@
 {
   "name": "@adent/promised-https-request",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "HTTPS request with promises",
   "main": "index.js",
   "scripts": {
