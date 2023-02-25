@@ -1,5 +1,5 @@
 {
-  "name": "@gazetisto/promised-https-request",
+  "name": "@adent/promised-https-request",
   "version": "1.0.1",
   "description": "HTTPS request with promises",
   "main": "index.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gazetisto-com/promisedHttpsRequest.git"
+    "url": "git+https://github.com/maly/promisedHttpsRequest.git"
   },
   "author": "Martin Maly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gazetisto-com/promisedHttpsRequest/issues"
+    "url": "https://github.com/maly/promisedHttpsRequest/issues"
   },
-  "homepage": "https://github.com/gazetisto-com/promisedHttpsRequest#readme"
+  "homepage": "https://github.com/maly/promisedHttpsRequest#readme"
 }
