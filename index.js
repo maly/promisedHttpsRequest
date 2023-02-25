@@ -1,11 +1,16 @@
-const https = require('https');
+import https from "https";
+import {
+    StringDecoder
+} from 'string_decoder';
 
 const request = (options, data) => new Promise((resolve, reject) => {
     const req = https.request(options, (res) => {
+        let decoder = new StringDecoder('utf8');
         let data = "";
 
         res.on('data', (d) => {
-            data += d.toString()
+            let textChunk = decoder.write(d);
+            data += textChunk
         });
         res.on('end', (d) => {
             resolve({
@@ -21,9 +26,9 @@ const request = (options, data) => new Promise((resolve, reject) => {
         console.error(e);
         reject(e)
     });
-    req.write(data)
+    req.write(data ? data : "")
     req.end();
 
 })
 
-module.exports = request
+export default request
